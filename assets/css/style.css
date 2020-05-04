@@ -1,0 +1,474 @@
+#91b307
+body{
+	font-family: 'lato','Aerial','sans-serif';
+	
+}
+
+
+
+
+
+/* ----------------------------------------------- */
+/* FONTS   */
+/* ----------------------------------------------- */
+h1
+{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  
+}
+h2{
+  font-size: 27px;
+  font-family: 'lato','Aerial','sans-serif';
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+h2:after{
+  display: block;
+  height: 2px;
+  background-color: #365802  ;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+
+/* ----------------------------------------------- */
+/* ALERT-CONTAINER    */
+/* ----------------------------------------------- */
+.alert-container .col-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.site-wide-alert {
+font-family: 'lato','Aerial','sans-serif';
+ border-radius: 0;
+ margin-bottom: 0;
+ padding: 5px,15px;
+ background-color:#91b307;
+ border-color:#365802;
+ color: #fff;
+ font-size: 20px;
+ font-family: 
+}
+
+.logo {
+  font-family: 'lato','Aerial','sans-serif';
+  
+  
+}
+
+
+.header-container {
+  height: 100vh;
+   background: linear-gradient(rgba(110, 105, 105, 0.384),rgba(14, 1, 1, 0.3)),url('../images/waterapple.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    font-family: 'lato','Aerial','sans-serif';
+}
+
+
+/* ----------------------------------------------- */
+/* NAVBAR    */
+/* ----------------------------------------------- */
+
+
+   .main-nav{
+	float:right;
+  list-style: none;
+	margin-top: 20px;
+  margin-bottom: 0;
+  font-family: 'lato','Aerial','sans-serif';
+
+  
+  
+	
+}
+.main-nav li{
+	display:inline-block;
+    margin-left: 40px;	
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+	padding: 8px 0;
+	color:#365802;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 120%;
+	border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+  color: #91b307;
+	
+}
+
+
+.navalert-container {
+    color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+.navbar .navbar-toggler {
+    border: 0;
+}
+.navbar .navbar-brand {
+  color:#365802;
+  font-size: 27px;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/* ----------------------------------------------- */
+/* BUTTONS   */
+/* ----------------------------------------------- */
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--green {
+    color:#fff;
+    margin-top: 20px;
+    background-color: #365802 ;
+    border-color: #365802 ;
+}
+
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
+    background-color:#91b307;
+        border-color:#91b307 ;
+    color: white;
+}
+
+
+/* ----------------------------------------------- */
+/* JUMBOTRON   */
+/* ----------------------------------------------- */
+
+.jumbotron {
+    background-color: transparent;
+}
+.jumbotron header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+
+/* ----------------------------------------------- */
+/* features-container   */
+/* ----------------------------------------------- */
+.section-features {
+  font-family:'lato','Aerial','sans-serif';
+   text-align: center;
+    margin-bottom: 40px;
+}
+
+ .section-features .long-copy {
+	margin-bottom: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+  .features-container i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+    
+}
+.section-features p {
+  font-family:'lato','Aerial','sans-serif';
+  font-size: 20px;
+}
+
+.icon-big {
+	font-size: 350%;
+	display: block;
+  	color: #365802 ;
+	margin-bottom: 10px;
+}
+
+
+.feature  {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+
+/* ----------------------------------------------- */
+/* HOW IT WORKS SECTION */
+/* ----------------------------------------------- */
+.work-container {
+  background-color: #f4f4f4;
+
+}
+.section-steps {
+   margin-top: 30px;
+   font-family:'lato','Aerial','sans-serif';
+   margin-bottom: 30px;
+    
+}
+
+.steps-box {
+    margin-top: 30px;
+   font-family:'lato','Aerial','sans-serif';
+   font-size: 20px;
+   }
+
+
+
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.steps-box:last-child {
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+.app-screen {
+    width: 100%;
+    padding-bottom: 50px;
+    margin-left: 100%;
+  
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-step div {
+    color: #365802 ;
+    font-size: 150%;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #365802 ;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+    padding: 5px;
+    
+}
+
+.works-step p {
+  font-size: 22px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+    text-align: center;
+}
+
+.btn-app img {
+    height:50%;
+    width:20%;
+    margin-right: 10px;
+    margin-bottom: 20px; 
+    
+    }
+    
+    
+    
+
+
+/* ----------------------------------------------- */
+/* PLANS-CONTAINER    */
+/* ----------------------------------------------- */
+
+
+.plans-container {
+  font-family:'lato','Aerial','sans-serif';
+  margin-top: 30px;
+}
+.plans-container li {
+  padding: 10px;
+}
+.section-plans{
+  margin-top: 30px;
+}
+.plans-header {
+  background-color: #91b307;
+  font-size: 30px;
+}
+.pricing-week {
+  color: #365802;
+  padding-top:12px;
+}
+.plans-body {
+ 
+  font-size: 20px;
+  font-weight:400;
+  }
+
+
+.btn-plans {
+    color:#fff;
+   background-color: #91b307;
+    border-color: #91b307;
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.btn-plans:hover,
+.btn-plans:active,
+.btn-plans:focus,
+.btn-plans:active:focus {
+    background-color:#365802;
+        border-color:#365802;
+    color: white;
+}
+
+
+/* ----------------------------------------------- */
+/* testimonial section    */
+/* ----------------------------------------------- */
+.testimonial-container{
+  background-color: #f4f4f4;
+}
+.section-testimonialS {
+  font-size: 27px;
+   font-family:'lato','Aerial','sans-serif';
+   margin-top: 48px;
+  margin-bottom: 48px;
+  }
+
+.testimonial-image{
+padding: 20px;
+
+}
+
+.testimonial-body {
+
+background-color: #f4f4f4;
+margin: 30px;
+
+}
+
+
+
+
+/* ----------------------------------------------- */
+/* FORM-CONTAINER    */
+/* ----------------------------------------------- */
+.form-container {
+  background-color:#b34c07;
+  width: 100%;
+ 
+
+}
+.
+.section-form{
+    clear: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+ 
+    padding: 30px;
+     margin: 0, auto;
+
+}
+
+.contact-form {
+    width: 100%;
+    
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #212529;
+}
+
+textarea {
+    height: 100px;
+}
+
+.btn-form {
+  padding: 10px;
+  margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+/* ----------------------------------------------- */
+/* FOOTER-CONTAINER    */
+/* ----------------------------------------------- */
+
+ .footer-container{
+background-color: #91b307;
+color: #fff;
+font-family:'lato','Aerial','sans-serif';
+font-size: 20px;
+ }
+ 
+.footer-link{
+  color: #212529;
+}
+
