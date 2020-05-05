@@ -224,7 +224,7 @@ font-family: 'lato','Aerial','sans-serif';
 .icon-big {
 	font-size: 350%;
 	display: block;
-  	color: #365802 ;
+  color: #365802 ;
 	margin-bottom: 10px;
 }
 
@@ -407,25 +407,21 @@ margin: 30px;
 /* FORM-CONTAINER    */
 /* ----------------------------------------------- */
 .form-container {
-  background-color:#b34c07;
-  width: 100%;
- 
+ width: 100%;
+ }
 
-}
-.
 .section-form{
-    clear: center;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
- 
-    padding: 30px;
+   width: 100%;
+     padding: 30px;
      margin: 0, auto;
 
 }
 
 .contact-form {
     width: 100%;
+     font-family:'lato','Aerial','sans-serif';
+     
+  
     
 }
 
@@ -438,16 +434,23 @@ textarea {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 3px;
-    border: 1px solid #212529;
 }
 
 textarea {
     height: 100px;
+     border: 1px solid #365802;
 }
 
 .btn-form {
   padding: 10px;
   margin: 20px auto;
+  font-weight: bold;
+  border-radius: 23px;
+  width: 160px;
+  color:#fff;
+  background-color: #365802 ;
+  border-color: #365802 ;
+
 }
 
 
@@ -470,5 +473,19 @@ font-size: 20px;
  
 .footer-link{
   color: #212529;
+}
+.social-networks{
+    text-align: left;
+}
+
+.social-networks li {
+    display:inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 3%;
+    color: #fff;
 }
 
