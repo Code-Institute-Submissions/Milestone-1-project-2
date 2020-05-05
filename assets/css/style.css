@@ -54,9 +54,18 @@ font-family: 'lato','Aerial','sans-serif';
  background-color:#91b307;
  border-color:#365802;
  color: #fff;
- font-size: 20px;
+ font-size: 24px;
  font-family: 
 }
+
+.site-wide-alert a:link,
+.site-wide-alert a:visited{
+  color: #365802;
+  }
+ 
+.site-wide-alert a:hover{
+  color: #fff;
+  }
 
 .logo {
   font-family: 'lato','Aerial','sans-serif';
@@ -471,9 +480,16 @@ font-family:'lato','Aerial','sans-serif';
 font-size: 20px;
  }
  
-.footer-link{
-  color: #212529;
-}
+
+.footer-link:link,
+.footer-link:visited{
+  color: #365802;
+  }
+ 
+.footer-link:hover{
+  color: #fff;
+  }
+
 .social-networks{
     text-align: left;
 }
