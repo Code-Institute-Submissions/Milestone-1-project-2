@@ -29,7 +29,7 @@ This website is for health conscious urban and sub-urban people. The target cust
   ##### 6. Contact Us – 
   As a subscriber or visitor, I want to contact the Organo so I can resolve my issues or get more information. 
 
-  ** Wireframes**
+  **Wireframes**
 
   Please find the attached wireframe below.
   
