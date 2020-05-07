@@ -9,7 +9,7 @@ You can subscribe, order, and modify order using our website.
 ## **UX**
 
 
-This website is for health conscious urban and sub-urban people. The target customer is also technology savvy. Following are the use cases/stories for the product.
+This website is for health conscious urban and sub-urban people. The target customer is also technology savvy. Following are the user cases/stories for the product.
 
   ##### 1. Pricing Information – 
   As a website visitor, I want to see the information about different subscription plans so I can choose the suitable plan for me.
@@ -28,6 +28,11 @@ This website is for health conscious urban and sub-urban people. The target cust
 
   ##### 6. Contact Us – 
   As a subscriber or visitor, I want to contact the Organo so I can resolve my issues or get more information. 
+
+  ** Wireframes**
+
+  Please find the attached wireframe below.
+  
 
 
 ## **Features**
@@ -54,15 +59,15 @@ This website is for health conscious urban and sub-urban people. The target cust
 
 ## **Technologies Used**
 
- * **HTML** - It is used to build basic content of web page.
+ 1. **HTML** - It is used to build basic content of web page.
 
- * **CSS** – It is used for styling of website such as colors, layout and fonts. 
+ 2. **CSS** – It is used for styling of website such as colors, layout and fonts. 
 
- * **Bootstrap 4** – Bootstrap grid is used to make website layout responsive on desktop, laptops, tablet and phones.
+ 3. **Bootstrap 4** – Bootstrap grid is used to make website layout responsive on desktop, laptops, tablet and phones.
 
- * **Google fonts**- It is used to custom fonts on the website.
+ 4. **Google fonts**- It is used to custom fonts on the website.
 
- * **font awesome**- It is used to put icons on the website.
+ 5. **font awesome**- It is used to put icons on the website.
 
 
 ## **Testing**
@@ -88,19 +93,29 @@ This website is for health conscious urban and sub-urban people. The target cust
       The website is also tested on W3C HTML and CSS validators and no error found.
 
 
-## **Deployment**
+## **Deployment**-
+
+
+  The website was pushed to Github from REPL very often.  Once the final version of website was done. It is committed and pushed to Github.
 
 
 ## **Credits**
 
 
-1. **Content**
-
+1. **Content**-
+   All the content for the website was copied from the blue apron, hellofresh Canada, powerkitchen website.
 
 2. **Media**
+   The photos used in this site were obtained from https://www.freepik.com
+   The icons for this website, was obtained from Font Awesome.
 
 
-3. **Acknowledgements**
+3. **Acknowledgements**-
+   I received inspiration for this project from 
+  a. Code Institute Whisky drop Bootstrap project.
+  b. [link to hellofresh!](https://www.hellofresh.ca)
+  c. [link to blueapron!](https://www.blueapron.com)
+  d. [link to powerkitchen!](https://www.powerkitchen.ca)
 
 
 
