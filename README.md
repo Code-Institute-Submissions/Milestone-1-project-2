@@ -32,6 +32,8 @@ This website is for health conscious urban and sub-urban people. The target cust
   **Wireframes**
 
   Please find the attached wireframe below.
+  ! [] (https://github.com/jayab2010/Milestone-1-project/blob/master/IMG_1369.jpg)
+  
   
 
 
